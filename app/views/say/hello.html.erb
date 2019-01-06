@@ -1,0 +1,6 @@
+<h1>Main page with data</h1>
+<%= form_tag("/say/goodbye", :method => "get") do %>
+  <%= label_tag("Enter a few number with (square number)") %><br>
+  <%= text_area_tag(:v1) %><br>
+  <%= submit_tag("Calc results") %>
+<% end %>
